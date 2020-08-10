@@ -22,7 +22,7 @@ import org.jdom2.Element;
 
 public class NMSPrepareShipList {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
-        File shipsFile = new File("D:\\temp\\nms\\ships.xml");
+        File shipsFile = new File("D:\\temp\\nms\\ships.html");
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = builderFactory.newDocumentBuilder();
         Document document = documentBuilder.parse(shipsFile);
